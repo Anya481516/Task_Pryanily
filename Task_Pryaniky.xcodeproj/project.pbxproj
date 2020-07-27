@@ -24,6 +24,7 @@
 		5DE73E8C24CF37AC00ECBC77 /* CustomTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE73E8B24CF37AB00ECBC77 /* CustomTextCell.swift */; };
 		5DE73E8E24CF37DB00ECBC77 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE73E8D24CF37DB00ECBC77 /* CustomImageCell.swift */; };
 		5DE73E9024CF37E800ECBC77 /* CustomSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE73E8F24CF37E800ECBC77 /* CustomSelectorCell.swift */; };
+		5DE73E9424CF40D000ECBC77 /* UIViewTableViewCell+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE73E9324CF40D000ECBC77 /* UIViewTableViewCell+extention.swift */; };
 		D23BB2EFF4C1D850799B464A /* Pods_Task_Pryaniky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70644943E2C17F91CCAEA54 /* Pods_Task_Pryaniky.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		5DE73E8B24CF37AB00ECBC77 /* CustomTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextCell.swift; sourceTree = "<group>"; };
 		5DE73E8D24CF37DB00ECBC77 /* CustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCell.swift; sourceTree = "<group>"; };
 		5DE73E8F24CF37E800ECBC77 /* CustomSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSelectorCell.swift; sourceTree = "<group>"; };
+		5DE73E9324CF40D000ECBC77 /* UIViewTableViewCell+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewTableViewCell+extention.swift"; sourceTree = "<group>"; };
 		7D5F6B8CBB217DBF618DBE84 /* Pods-Task_Pryaniky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task_Pryaniky.release.xcconfig"; path = "Target Support Files/Pods-Task_Pryaniky/Pods-Task_Pryaniky.release.xcconfig"; sourceTree = "<group>"; };
 		D70644943E2C17F91CCAEA54 /* Pods_Task_Pryaniky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Pryaniky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 		5DD8510924CF208100F2F03D /* Task_Pryaniky */ = {
 			isa = PBXGroup;
 			children = (
+				5DE73E9124CF407900ECBC77 /* Extentions */,
 				5DE73E7324CF2CB300ECBC77 /* Main */,
 				5DD8510A24CF208100F2F03D /* AppDelegate.swift */,
 				5DD8510C24CF208100F2F03D /* SceneDelegate.swift */,
@@ -162,6 +165,22 @@
 				5DE73E8F24CF37E800ECBC77 /* CustomSelectorCell.swift */,
 			);
 			path = Subview;
+			sourceTree = "<group>";
+		};
+		5DE73E9124CF407900ECBC77 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5DE73E9224CF40B400ECBC77 /* UIViewTableCell */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5DE73E9224CF40B400ECBC77 /* UIViewTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				5DE73E9324CF40D000ECBC77 /* UIViewTableViewCell+extention.swift */,
+			);
+			path = UIViewTableCell;
 			sourceTree = "<group>";
 		};
 		DD54EC8EAB5D7FEE0E7CEA93 /* Frameworks */ = {
@@ -297,6 +316,7 @@
 				5DD8510D24CF208100F2F03D /* SceneDelegate.swift in Sources */,
 				5DE73E7E24CF2F2C00ECBC77 /* AllData.swift in Sources */,
 				5DE73E9024CF37E800ECBC77 /* CustomSelectorCell.swift in Sources */,
+				5DE73E9424CF40D000ECBC77 /* UIViewTableViewCell+extention.swift in Sources */,
 				5DE73E8C24CF37AC00ECBC77 /* CustomTextCell.swift in Sources */,
 				5DE73E8224CF31E000ECBC77 /* ImageData.swift in Sources */,
 				5DE73E8E24CF37DB00ECBC77 /* CustomImageCell.swift in Sources */,
